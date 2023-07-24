@@ -35,14 +35,15 @@ public class DriverFactory {
 			System.out.println("browser value is: " + browser);
 
 			if (browser.equals("chrome")) {
-				ChromeOptions co= new ChromeOptions();
-				co.addArguments("--remote-allow-origins=*");
-				//WebDriverManager.chromedriver().setup();
-				tlDriver.set(new ChromeDriver(co));
+				//ChromeOptions co= new ChromeOptions();
+				//co.addArguments("--remote-allow-origins=*");
+				WebDriverManager.chromedriver().driverVersion("115.0.5790.98 ").setup();
+				tlDriver.set(new ChromeDriver());
 			} else if (browser.equals("firefox")) {
 				WebDriverManager.firefoxdriver().setup();
 				tlDriver.set(new FirefoxDriver());
 			} else if (browser.equals("safari")) {
+				WebDriverManager.safaridriver().setup();
 				tlDriver.set(new SafariDriver());
 			} else {
 				System.out.println("Please pass the correct browser value: " + browser);
