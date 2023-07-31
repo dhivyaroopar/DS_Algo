@@ -69,7 +69,7 @@
 	<dependency>
     <groupId>io.github.bonigarcia</groupId>
     <artifactId>webdrivermanager</artifactId>
-    <version>5.4.0</version>
+    <version>5.4.1</version>
 	</dependency>
 	
 	<!-- https://mvnrepository.com/artifact/tech.grasshopper/extentreports-cucumber7-adapter -->
@@ -78,14 +78,6 @@
     <artifactId>extentreports-cucumber7-adapter</artifactId>
     <version>1.13.0</version>
 	</dependency>
-	
-	<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
-	<dependency>
-    <groupId>com.aventstack</groupId>
-    <artifactId>extentreports</artifactId>
-    <version>5.0.9</version>
-	</dependency>
-
 
 	 <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
     <dependency>
@@ -109,13 +101,19 @@
     <scope>test</scope>
 	</dependency>
 	
-	<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-picocontainer -->
+	<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-devtools-v108 -->
 	<dependency>
-    <groupId>io.cucumber</groupId>
-    <artifactId>cucumber-picocontainer</artifactId>
-    <version>7.13.0</version>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-devtools-v108</artifactId>
+    <version>4.8.1</version>
 	</dependency>
-
+	
+	<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-compiler-plugin -->
+	<dependency>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-compiler-plugin</artifactId>
+    <version>3.11.0</version>
+	</dependency>
 	
 
   </dependencies>

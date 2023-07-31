@@ -6,7 +6,7 @@ import org.testng.annotations.DataProvider;
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
-;
+
 
 //@RunWith(Cucumber.class)
 @io.cucumber.testng.CucumberOptions(
